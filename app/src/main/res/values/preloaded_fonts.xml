@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aladin</item>
+        <item>@font/aldrich</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/atomic_age</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/crimson_text_italic</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/libre_franklin</item>
+        <item>@font/libre_franklin_bold</item>
+        <item>@font/limelight</item>
+        <item>@font/rubik_light</item>
+        <item>@font/shrikhand</item>
+        <item>@font/vampiro_one</item>
+    </array>
+</resources>

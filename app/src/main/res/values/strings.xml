@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LIVVN</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="_3_5">3.5</string>
+    <string name="title_activity_map">Map</string>
+</resources>

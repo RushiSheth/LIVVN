@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hostelss">
+
+    <TextView
+        android:id="@+id/Hostelr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:text="Hostels"
+        android:textColor="#0e3040"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/search_hostel"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hostelr"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/searchbar"
+        android:ems="10"
+        android:fontFamily="@font/crimson_text_italic"
+        android:hint="Search for places"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#37373C"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/se"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Hostelr"
+        android:layout_alignTop="@+id/search_hostel"
+        android:layout_alignBottom="@+id/search_hostel"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/search_hostel"
+        android:background="@drawable/button1"
+        android:backgroundTint="#0e3040"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/ic_action_search2" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reli"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_hostel"
+        android:layout_marginTop="40dp" />
+
+
+</RelativeLayout>

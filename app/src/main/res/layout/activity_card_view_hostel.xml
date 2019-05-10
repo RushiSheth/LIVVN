@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffBE6"
+    tools:context=".CardViewHostel">
+
+    <ImageView
+        android:id="@+id/card_hosimage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ccd" />
+
+    <TextView
+        android:id="@+id/card_hosname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:text="MADHAV HOSTEL"
+        android:textColor="#FD5523"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/card_hosinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:text="Boys"
+        android:textColor="#356B59"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/card_hosrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rateborder"
+        android:text="@string/_3_5"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="80dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_location_on_black_24dp" />
+
+    <View
+        android:id="@+id/innerLi"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginRight="30dp"
+        android:background="#b9e4c9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rooms"
+                android:textColor="#356859"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="10"
+                android:textColor="#37966F" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/inneri"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#39e4c9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"
+                android:drawableLeft="@drawable/ic_playlist_add_black_24dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Book Room"
+                android:textColor="#442C2E" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/libre_franklin"
+                android:text="Description"
+                android:textColor="#442C2E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/rubik_light"
+                android:lineSpacingExtra="4sp"
+                android:text="We serve best. It's place to serene environment. We are here for you 24*7. Service is our prime goal, we live to deliver. With best in-class living in Vallabh Vidhyanagar,you would fall asleep in minutes. With best in class amenities you would feel it as home,dominating over years.Come join the family, complete your joueney wih us. Make memories, cherish moments, get full from your college life. Because, it's not coming back.Book now, trust us you won't regret."
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

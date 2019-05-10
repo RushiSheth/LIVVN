@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "216217363549",
+    "firebase_url": "https://livvn-2c605.firebaseio.com",
+    "project_id": "livvn-2c605",
+    "storage_bucket": "livvn-2c605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216217363549:android:a66b9f2ec2b5f7d2",
+        "android_client_info": {
+          "package_name": "com.example.livvn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216217363549-k0kae3quhh0t8eoain6osur1diu3v6qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.livvn",
+            "certificate_hash": "e5415ed98d24f372f877e054896dea45252f2251"
+          }
+        },
+        {
+          "client_id": "216217363549-rumtnmtd0g40kjmuk47q40hnicpafqel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPP7a-2x0qL0E0g9RCe86EbrliiCByDz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216217363549-rumtnmtd0g40kjmuk47q40hnicpafqel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

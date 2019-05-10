@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e3040"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/loginn"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#014a46" />
+
+    <ImageView
+        android:id="@+id/loginlogo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="50dp"
+        android:background="#014a46"
+        android:src="@drawable/transp_logo" />
+
+
+    <EditText
+        android:id="@+id/usernameedit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/loginlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16dp" />
+
+    <View
+        android:id="@+id/viewusern"
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/usernameedit"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff" />
+
+    <EditText
+        android:id="@+id/passedit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/usernameedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <View
+        android:id="@+id/viewpassn"
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/passedit"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff" />
+
+    <Button
+        android:id="@+id/LOGIN"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/passedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonstyleselector"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LOGIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password?"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/Progressb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

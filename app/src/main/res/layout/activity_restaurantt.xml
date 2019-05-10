@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restaurantt">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Restr"
+        android:layout_alignTop="@+id/searchr"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/searchr"
+        android:baselineAlignBottom="true"
+        app:menu_icon="@drawable/ic_playlist_add_black_24dp"
+        app:menu_openDirection="down">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/filterres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_restaurant_black_24dp"
+            app:fab_label="Restaurant"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/filtercafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_local_cafe_black_24dp"
+            app:fab_label="Cafes"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/filterrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_review_black_24dp"
+            app:fab_label="Rating"
+            app:fab_size="mini" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <TextView
+
+        android:id="@+id/Restr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/libre_franklin_bold"
+        android:text="Eateries"
+        android:textColor="#0e3040"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/searchr"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Restr"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/searchbar"
+        android:ems="10"
+        android:fontFamily="@font/crimson_text_italic"
+        android:hint="Search for places"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#37373C"
+        android:textSize="20sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchr"
+        android:layout_marginTop="40dp"
+        android:elevation="-5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_ho_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_eateries"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Eateries" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_hotel_black_24dp"
+        android:title="Hostels" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Profile" />
+
+</menu>

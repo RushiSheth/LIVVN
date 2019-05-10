@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e3040"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="170dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/transp_logo" />
+
+        <TextView
+            android:id="@+id/Textb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/limelight"
+            android:gravity="center"
+            android:text="LIV'VN"
+            android:textColor="#7ed68e"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Textb"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:gravity="center_horizontal"
+            android:text="LIVE-EAT-SLEEP"
+            android:textColor="#7ed68e"
+            android:textSize="20sp" />
+        */
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:background="#ffe12b"
+            android:text="SIGNIN"
+            android:textColor="#0e3040" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:background="#ffe12b"
+            android:text="SIGNUP"
+            android:textColor="#0e3040" />
+    </LinearLayout>
+
+</RelativeLayout>
